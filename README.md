@@ -2,7 +2,7 @@
     <img width="500" src="https://github.com/markgacoka/TSP_Optimization/blob/master/logo.png">
 </p>
 
-<h1 align="center">TSP_Optimization</h1>
+<h1 align="center">TSP Optimization</h1>
 <div align="center">
     <p>An optimization solution to the Traveling Salesman Problem that guarantees the global optimum.</p>
     <p><b>Optimization Problem</b>: To prevent the spread of an infectious disease, a vaccine needs to be distributed as quickly and efficiently as possible to the 15 cities that have had major outbreaks. How can you optimize the route between the cities?</p>
@@ -39,7 +39,7 @@ Since the position of the coordinates and distance between them stay constant, o
 
 The results indicate that the program is efficient in finding the global minimum when given enough time. I could further make it better by making the converged minimum distance be the stopping criteria instead of time. By jumping to random cities, running time could be cut short before the global optimum is found. Moreover, the program is not algorithmically efficient as a single execution of 3-opt local search has a time complexity of <img src="https://render.githubusercontent.com/render/math?math=O(N^3)"> and iterated 3-opt local search has higher time complexity.
 
-### Prerequisites
+## Prerequisites
 
 What things you need to install the software and how to install them:
 * itertools
@@ -49,7 +49,7 @@ What things you need to install the software and how to install them:
 * numpy
 * matplotlib
 
-### Installing
+## Installing
 #### For Windows
 Download [Git for Windows](https://gitforwindows.org/) if you don't have one already.
 
