@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="200" src="https://github.com/markgacoka/TSP_Optimization/blob/master/logo.png">
+    <img width="500" src="https://github.com/markgacoka/TSP_Optimization/blob/master/logo.png">
 </p>
 
 <h1 align="center">TSP_Optimization</h1>
@@ -11,7 +11,7 @@ An optimization solution to the Traveling Salesman Problem
 </div>
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/markgacoka/TSP_Optimization/blob/master/solution.png">
+  <img width="600" height="800" src="https://github.com/markgacoka/TSP_Optimization/blob/master/solution.png">
 </p>
 
 ## Technical Details
@@ -19,15 +19,15 @@ An optimization solution to the Traveling Salesman Problem
 
 The objective function is to find the shortest route that the transporter could use to deliver the vaccine.
    
-For all visited cities $\mathit{N}$ that are indexed from {$\mathit{0...N}$} and given a pair of cities, $a$ and $b$, and the distance between them c(a, b), the objective function is represented as: $min \sum a \sum b \hspace{0.3cm} c_{a,b} y_{a,b}$, $y$ being the cost to visit the respective city. This means that the objective function is optimized to minimize the total distance to be covered by the transporter.
+For all visited cities <img src="https://render.githubusercontent.com/render/math?math=\mathit{N}"> that are indexed from {<img src="https://render.githubusercontent.com/render/math?math=\mathit{0...N}">} and given a pair of cities, <img src="https://render.githubusercontent.com/render/math?math=a"> and <img src="https://render.githubusercontent.com/render/math?math=b">$b$, and the distance between them <img src="https://render.githubusercontent.com/render/math?math=c_{a,b})">, the objective function is represented as: <img src="https://render.githubusercontent.com/render/math?math=min \sum a \sum b \hspace{0.3cm} c_{a,b} y_{a,b}">, <img src="https://render.githubusercontent.com/render/math?math=y"> being the cost to visit the respective city. This means that the objective function is optimized to minimize the total distance to be covered by the transporter.
 
 - The cities represented in this problem statement corresponds to 15 locations affected by the Ebola virus in Liberia 2014. I converted the city coordinates from geodetic coordinate system to cartesian coordinate system then scaled from 1-10 and plotted in a graph.
 
-Since the position of the coordinates and distance between them stay constant, our decision variable will be the order in which the cities are visited and is represented by the permutation cost for traveling all the cities $min \sum y_{a, b}$. By changing the order of routes to a feasible set of alternatives, we can either increase or decrease the value of the objective function which is the length of the path to be used. 
+Since the position of the coordinates and distance between them stay constant, our decision variable will be the order in which the cities are visited and is represented by the permutation cost for traveling all the cities <img src="https://render.githubusercontent.com/render/math?math=min \sum y_{a, b}">. By changing the order of routes to a feasible set of alternatives, we can either increase or decrease the value of the objective function which is the length of the path to be used. 
 
 ##### The constraints include:
-1. **Go to constraint** - After visiting a city $N_i$, the transporter must visit only visit one city next.
-2. **Come from constraint** - when visiting a city $N_i$, the transporter can only come from one city $N_{i-1}$.
+1. **Go to constraint** - After visiting a city <img src="https://render.githubusercontent.com/render/math?math=N_i">, the transporter must visit only visit one city next.
+2. **Come from constraint** - when visiting a city <img src="https://render.githubusercontent.com/render/math?math=N_i">, the transporter can only come from one city <img src="https://render.githubusercontent.com/render/math?math=N_{i-1}">.
 3. **1-1 connection** - The cities should be fully connected with no sub-tours or according to graph theory, a hub with multiple nodes.
 4. **Double visitation** - The transporter can not visit a city twice.
 
