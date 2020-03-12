@@ -10,8 +10,8 @@ An optimization solution to the Traveling Salesman Problem
 [![Testing](https://github.com/markgacoka/TrashClassifier/blob/master/images/badge.svg)](https://github.com/markgacoka/TrashClassifier/issues)
 </div>
 
-<hr/>
-[![Solution](https://github.com/markgacoka/TSP_Optimization/blob/master/solution.png)]
+
+![Solution](https://github.com/markgacoka/TSP_Optimization/blob/master/solution.png)
 
 ## Technical Details
 #### Scenario 1 - Problem Statement: 
