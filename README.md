@@ -1,6 +1,5 @@
 <p align="center">
     <img width="200" src="https://github.com/markgacoka/TSP_Optimization/blob/master/logo.png">
-    [![Testing](https://github.com/markgacoka/TrashClassifier/blob/master/images/badge.svg)](https://github.com/markgacoka/TrashClassifier/issues)
 </p>
 
 <h1 align="center">TSP_Optimization</h1>
@@ -8,8 +7,11 @@
 An optimization solution to the Traveling Salesman Problem
 **Optimization Problem**: To prevent the spread of an infectious disease, a vaccine needs to be distributed as quickly and efficiently as possible to the 15 cities that have had major outbreaks. How can you optimize the route between the cities?. 
 
-[![Solution](https://github.com/markgacoka/TSP_Optimization/blob/master/solution.png)]
+[![Testing](https://github.com/markgacoka/TrashClassifier/blob/master/images/badge.svg)](https://github.com/markgacoka/TrashClassifier/issues)
 </div>
+
+<hr/>
+[![Solution](https://github.com/markgacoka/TSP_Optimization/blob/master/solution.png)]
 
 ## Technical Details
 #### Scenario 1 - Problem Statement: 
