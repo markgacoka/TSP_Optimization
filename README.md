@@ -11,7 +11,7 @@ An optimization solution to the Traveling Salesman Problem
 </div>
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/markgacoka/TSP_Optimization/blob/master/solution.png">
+  <img width="600" height="400" src="https://github.com/markgacoka/TSP_Optimization/blob/master/solution.png">
 </p>
 
 ## Technical Details
@@ -37,7 +37,7 @@ Since the position of the coordinates and distance between them stay constant, o
 
 ##### Interpretation and Efficiency
 
-The results indicate that the program is efficient in finding the global minimum when given enough time. I could further make it better by making the converged minimum distance be the stopping criteria instead of time. By jumping to random cities, running time could be cut short before the global optimum is found. Moreover, the program is not algorithmically efficient as a single execution of 3-opt local search has a time complexity of $O(N^3)$ and iterated 3-opt local search has higher time complexity.
+The results indicate that the program is efficient in finding the global minimum when given enough time. I could further make it better by making the converged minimum distance be the stopping criteria instead of time. By jumping to random cities, running time could be cut short before the global optimum is found. Moreover, the program is not algorithmically efficient as a single execution of 3-opt local search has a time complexity of <img src="https://render.githubusercontent.com/render/math?math=O(N^3)"> and iterated 3-opt local search has higher time complexity.
 
 ### Prerequisites
 
