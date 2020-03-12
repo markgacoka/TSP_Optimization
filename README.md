@@ -8,16 +8,15 @@ An optimization solution to the Traveling Salesman Problem
 **Optimization Problem**: To prevent the spread of an infectious disease, a vaccine needs to be distributed as quickly and efficiently as possible to the 15 cities that have had major outbreaks. How can you optimize the route between the cities?. 
 
 [![Testing](https://github.com/markgacoka/TrashClassifier/blob/master/images/badge.svg)](https://github.com/markgacoka/TrashClassifier/issues)
+[Solution](https://github.com/markgacoka/TSP_Optimization/blob/master/solution.png)
 </div>
-
-<center>![Solution](https://github.com/markgacoka/TSP_Optimization/blob/master/solution.png)</center>
 
 ## Technical Details
 #### Scenario 1 - Problem Statement: 
 
 The objective function is to find the shortest route that the transporter could use to deliver the vaccine.
    
-For all visited cities $\mathit{N}$ that are indexed from {$\mathit{0...N}$} and given a pair of cities, $a$ and $b$, and the distance between them c(a, b), the objective function is represented as: $min \sum a \sum b \hspace{0.3cm} c_{a,b} y_{a,b}$, $y$ being the cost to visit the respective city. This means that the objective function is optimized to minimize the total distance to be covered by the transporter.
+For all visited cities $`\mathit{N}`$ that are indexed from {$`\mathit{0...N}`$} and given a pair of cities, $`a`$ and $`b`$, and the distance between them c(a, b), the objective function is represented as: $min \sum a \sum b \hspace{0.3cm} c_{a,b} y_{a,b}$, $y$ being the cost to visit the respective city. This means that the objective function is optimized to minimize the total distance to be covered by the transporter.
 
 - The cities represented in this problem statement corresponds to 15 locations affected by the Ebola virus in Liberia 2014. I converted the city coordinates from geodetic coordinate system to cartesian coordinate system then scaled from 1-10 and plotted in a graph.
 
@@ -35,7 +34,7 @@ Since the position of the coordinates and distance between them stay constant, o
 
 ##### Interpretation and Efficiency
 
-The results indicate that the program is efficient in finding the global minimum when given enough time. I could further make it better by making the converged minimum distance be the stopping criteria instead of time. By jumping to random cities, running time could be cut short before the global optimum is found. Moreover, the program is not algorithmically efficient as a single execution of 3-opt local search has a time complexity of \begin{align*}$O(N^3)$\end{align*} and iterated 3-opt local search has higher time complexity.
+The results indicate that the program is efficient in finding the global minimum when given enough time. I could further make it better by making the converged minimum distance be the stopping criteria instead of time. By jumping to random cities, running time could be cut short before the global optimum is found. Moreover, the program is not algorithmically efficient as a single execution of 3-opt local search has a time complexity of $`O(N^3)`$ and iterated 3-opt local search has higher time complexity.
 
 ### Prerequisites
 
