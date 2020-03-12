@@ -4,8 +4,8 @@
 
 <h1 align="center">TSP_Optimization</h1>
 <div align="center">
-An optimization solution to the Traveling Salesman Problem
-**Optimization Problem**: To prevent the spread of an infectious disease, a vaccine needs to be distributed as quickly and efficiently as possible to the 15 cities that have had major outbreaks. How can you optimize the route between the cities?. 
+    <p>An optimization solution to the Traveling Salesman Problem</p>
+    <p><b>Optimization Problem</b>: To prevent the spread of an infectious disease, a vaccine needs to be distributed as quickly and efficiently as possible to the 15 cities that have had major outbreaks. How can you optimize the route between the cities?</p>
 
 [![Testing](https://github.com/markgacoka/TrashClassifier/blob/master/images/badge.svg)](https://github.com/markgacoka/TrashClassifier/issues)
 </div>
