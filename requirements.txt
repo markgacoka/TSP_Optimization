@@ -1,0 +1,6 @@
+itertools
+random
+os
+time
+numpy
+matplotlib
