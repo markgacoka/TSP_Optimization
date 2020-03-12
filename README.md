@@ -10,7 +10,7 @@ An optimization solution to the Traveling Salesman Problem
 [![Testing](https://github.com/markgacoka/TrashClassifier/blob/master/images/badge.svg)](https://github.com/markgacoka/TrashClassifier/issues)
 </div>
 
-![Solution](https://github.com/markgacoka/TSP_Optimization/blob/master/solution.png)
+<center>![Solution](https://github.com/markgacoka/TSP_Optimization/blob/master/solution.png)</center>
 
 ## Technical Details
 #### Scenario 1 - Problem Statement: 
@@ -34,11 +34,8 @@ Since the position of the coordinates and distance between them stay constant, o
 2. There are no unaffected cities that connect the affected cities to form a shorter path.
 
 ##### Interpretation and Efficiency
-\begin{align*}
 
-The results indicate that the program is efficient in finding the global minimum when given enough time. I could further make it better by making the converged minimum distance be the stopping criteria instead of time. By jumping to random cities, running time could be cut short before the global optimum is found. Moreover, the program is not algorithmically efficient as a single execution of 3-opt local search has a time complexity of $O(N^3)$ and iterated 3-opt local search has higher time complexity.
-
-\end{align*}
+The results indicate that the program is efficient in finding the global minimum when given enough time. I could further make it better by making the converged minimum distance be the stopping criteria instead of time. By jumping to random cities, running time could be cut short before the global optimum is found. Moreover, the program is not algorithmically efficient as a single execution of 3-opt local search has a time complexity of \begin{align*}$O(N^3)$\end{align*} and iterated 3-opt local search has higher time complexity.
 
 ### Prerequisites
 
@@ -90,8 +87,8 @@ python graph.py
 
 ## Versioning
 
-This is the alpha version for the project. V 1.0.0.
 ![version](https://img.shields.io/badge/version-1.0.0-blue)
+* Alpha version.
 
 ## Authors
 <table>
