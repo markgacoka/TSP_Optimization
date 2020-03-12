@@ -15,7 +15,7 @@
 </p>
 
 ## Technical Details
-#### Scenario 1 - Problem Statement: 
+#### Problem Statement: 
 
 The objective function is to find the shortest route that the transporter could use to deliver the vaccine.
    
